@@ -34,13 +34,38 @@
                             <li class="header__list-item header__list2-item"><a href="#" class="header__list2-link"><img src="assets/images/cart.svg" class="header__list2-img"></a></li>
                         </ul>
                         <div class="header__inputBox">
-                            <input type="text" class="header__inputBox-input">
+                            <input type="search" class="header__inputBox-input">
                         </div>
                     </nav>
+                    <button class="burger-btn" id="burger-btn-open">
+                        <span class="burger-span"></span>
+                        <span class="burger-span"></span>
+                        <span class="burger-span"></span>
+                    </button>
                 </div>
             </div>
         </header>
         <main class="main">
+            <section class="burger__menu" id="burger__menu">
+                <div class="burger__inner">
+                    <button class="burger__menu-btn" id="burger-btn-hide">
+                        <img src="assets/images/hide.svg" class="burger__menu-img">
+                    </button>
+                    <a href="#" class="burger__menu-link">Men</a>
+                    <a href="#" class="burger__menu-link">Women</a>
+                    <a href="#" class="burger__menu-link">Objects</a>
+                    <a href="#" class="burger__menu-link">Analog</a>  
+                    <nav class="burger__menu-nav">
+                        <a href="#" class="burger__nav-link">Journal</a>
+                        <a href="#" class="burger__nav-link">Search</a>
+                    </nav>
+                    <nav class="burger__menu-nav">
+                        <a href="#" class="burger__nav-link">Login</a>
+                        <a href="#" class="burger__nav-link"><img src="assets/images/cart.svg" class="burger__nav-img"></a>
+                    </nav>
+                    <input type="search" class="burger__menu-input">
+                </div>
+            </section>
             <section class="firstScreen">
                 <div class="container">
                     <div class="firstScreen__inner">
@@ -509,7 +534,7 @@
                         <h2 class="categories-title">Our mission is to create simple, beautiful objects that combine form and function.</h2>
                         <div class="categories__human">
                             <div class="categories__mens">
-                                <img src="assets/images/mens.jpg" class="categories__human-img">
+                                <img src="assets/images/mens.jpg" class="categories__human-img categories__human-img-1">
                                 <a href="#" class="categories-link">Shop Mens</a>
                             </div>
                             <div class="categories__womens">
@@ -586,5 +611,4 @@
     </div>
 </body>
     <script src="assets/js/main.js"></script>
-    
 </html>
